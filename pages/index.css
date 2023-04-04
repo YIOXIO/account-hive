@@ -1,0 +1,58 @@
+/* Общие стили */
+@import '../account-block/root/root.css';
+@import '../account-block/page/page.css';
+
+@import '../account-block/section-title/section-title.css';
+
+
+/* Стили для секции Dashboard */
+@import '../account-block/dashboard/__list/dashboard__list.css';
+@import '../account-block/dashboard/__wrapper/dashboard__wrapper.css';
+@import '../account-block/dashboard/__item/dashboard__item.css';
+
+
+/* Стили для Dashboard - Profile*/
+@import '../account-block/profile/__title/profile__title.css';
+@import '../account-block/profile/__wrapper/profile__wrapper.css';
+@import '../account-block/profile/__avatar/profile__avatar.css';
+@import '../account-block/profile/__name/profile__name.css';
+@import '../account-block/profile/__button-edit/profile__button-edit.css';
+@import '../account-block/profile/__id/profile__id.css';
+@import '../account-block/profile/__info/profile__info.css';
+@import '../account-block/profile/__info-span/profile__info-span.css';
+
+/* Стили для Dashboard - Competence */
+@import '../account-block/competence/__title/competence__title.css';
+@import '../account-block/competence/__subtitle/competence__subtitle.css';
+@import '../account-block/competence/__button/competence__button.css';
+
+/* Стили для Dashboard - Projects */
+@import '../account-block/projects/__title/projects__title.css';
+@import '../account-block/projects/__subtitle/projects__subtitle.css';
+@import '../account-block/projects/__button/projects__button.css';
+
+/* Стили для Dashboard - Achivment */
+@import '../account-block/achivment/__title/achivment__title.css';
+@import '../account-block/achivment/__count/achivment__count.css';
+@import '../account-block/achivment/__list/achivment__list.css';
+@import '../account-block/achivment/__item/achivment__item.css';
+
+/* Стили для Dashboard - Startup */
+@import '../account-block/startup/__title/startup__title.css';
+@import '../account-block/startup/__subtitle/startup__subtitle.css';
+@import '../account-block/startup/__button/startup__button.css';
+
+/* Стили для Dashboard - Organisation */
+@import '../account-block/organisation/__title/organisation__title.css';
+@import '../account-block/organisation/__subtitle/organisation__subtitle.css';
+@import '../account-block/organisation/__button/organisation__button.css';
+
+/* Стили для Dashboard - Education */
+@import '../account-block/education/__title/education__title.css';
+@import '../account-block/education/__subtitle/education__subtitle.css';
+@import '../account-block/education/__button/education__button.css';
+
+/* Стили для Dashboard - Patent */
+@import '../account-block/patent/__title/patent__title.css';
+@import '../account-block/patent/__subtitle/patent__subtitle.css';
+@import '../account-block/patent/__button/patent__button.css';

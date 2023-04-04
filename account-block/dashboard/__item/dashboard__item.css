@@ -1,0 +1,48 @@
+.dashboard__item {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 13px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    max-width: 370px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-height: 212px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+
+.dashboard__item:nth-child(1) {
+    grid-area: profile;
+}
+
+.dashboard__item:nth-child(2) {
+    grid-area: competence;
+}
+
+.dashboard__item:nth-child(3) {
+    grid-area: projects;
+}
+
+.dashboard__item:nth-child(4) {
+    grid-area: achivment;
+}
+
+.dashboard__item:nth-child(5) {
+    grid-area: startup;
+}
+
+.dashboard__item:nth-child(6) {
+    grid-area: organisation;
+}
+
+.dashboard__item:nth-child(7) {
+    grid-area: education;
+}
+
+.dashboard__item:nth-child(8) {
+    grid-area: patent;
+}

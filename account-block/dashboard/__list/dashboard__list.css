@@ -1,0 +1,12 @@
+.dashboard__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    grid-template-areas:
+        "profile competence achivment"
+        "profile projects achivment"
+        "startup organisation achivment"
+        "education patent achivment";
+}

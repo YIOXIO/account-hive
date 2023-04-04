@@ -1,0 +1,13 @@
+.startup__button {
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    background: url('../../../images/startup-button.svg');
+    align-self: flex-end;
+    margin: 0 30px 30px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50.75px;
+    height: 58px;
+}

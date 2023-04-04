@@ -1,0 +1,13 @@
+.profile__button-edit {
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    background: url('../../../images/private-office-pencil.svg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25.85px;
+    height: 25.84px;
+
+}
