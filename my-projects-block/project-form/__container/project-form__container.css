@@ -1,4 +1,5 @@
 .project-form__container {
     display: flex;
     gap: 31px;
+    margin-top: 42px;
 }

@@ -1,0 +1,8 @@
+.education__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(225px, auto));
+    gap: 17px;
+}

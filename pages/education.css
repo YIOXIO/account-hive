@@ -1,0 +1,20 @@
+/* Общие стили */
+@import '../education-block/root/root.css';
+@import '../education-block/page/page.css';
+
+@import '../education-block/section-title/section-title.css';
+@import '../education-block/section-subtitle/section-subtitle.css';
+@import '../education-block/section-subtitle/_nomargin/section-subtitle_nomargin.css';
+
+
+/* Стили для элемента Онлайн мастер - классы */
+@import '../education-block/education/__container/education__container.css';
+@import '../education-block/education/__wrapper/education__wrapper.css';
+@import '../education-block/education/__wrapper-column/education__wrapper-column.css';
+@import '../education-block/education/__list/education__list.css';
+@import '../education-block/education/__title/education__title.css';
+@import '../education-block/education/__item/education__item.css';
+@import '../education-block/education/__image/education__image.css';
+@import '../education-block/education/__description/education__description.css';
+@import '../education-block/education/__overlay/education__overlay.css';
+@import '../education-block/education/__accelerator/education__accelerato.css';
