@@ -1,0 +1,20 @@
+.project-form__submit-button {
+    background: #7C94FF;
+    border-radius: 5px;
+    text-align: center;
+    padding: 11px 22px 15px;
+    border: none;
+    color: #fff;
+    max-width: 229px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.07em;
+    transition: box-shadow .3s ease-out;
+    cursor: pointer;
+}
+
+.project-form__submit-button:hover {
+    box-shadow: 0 0 15px #7C94FF;
+}

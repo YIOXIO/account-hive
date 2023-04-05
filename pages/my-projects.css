@@ -1,0 +1,35 @@
+/* Общие стили */
+@import '../my-projects-block/root/root.css';
+@import '../my-projects-block/page/page.css';
+
+@import '../my-projects-block/section-title/section-title.css';
+@import '../my-projects-block/section-subtitle/section-subtitle.css';
+@import '../my-projects-block/section-subtitle/_nomargin/section-subtitle_nomargin.css';
+@import '../my-projects-block/section-description/section-description.css';
+@import '../my-projects-block/form-subtitle/form-subtitle.css';
+@import '../my-projects-block/__button/my-projects__button.css';
+
+
+/* Стили для элемена карточек проекта */
+@import '../my-projects-block/elements/elements__card/elements__card.css';
+@import '../my-projects-block/card/card.css';
+@import '../my-projects-block/card/__image/card__image.css';
+@import '../my-projects-block/card/__name/card__name.css';
+@import '../my-projects-block/card/__description/card__description.css';
+@import '../my-projects-block/card/__wrapper/card__wrapper.css';
+@import '../my-projects-block/card/__button/card__button.css';
+@import '../my-projects-block/card/__button-edit/card__button-edit.css';
+
+/* Стили для формы редактирования/добавления проектов */
+@import '../my-projects-block/project-form/project-form.css';
+@import '../my-projects-block/project-form/__label/project-form__label.css';
+@import '../my-projects-block/project-form/__label/_star/project-form__label_star.css';
+@import '../my-projects-block/project-form/__field/project-form__field.css';
+@import '../my-projects-block/project-form/__field/_name/project__field_name.css';
+@import '../my-projects-block/project-form/__field/_id/project-form__field_id.css';
+@import '../my-projects-block/project-form/__field/description/project__field_description.css';
+@import '../my-projects-block/project-form/__span/project-form__span.css';
+@import '../my-projects-block/project-form/__add-button/project-form__add-button.css';
+@import '../my-projects-block/project-form/__submit-button/project-form__submit-button.css';
+@import '../my-projects-block/project-form/__reset-button/project-form__reset-button.css';
+@import '../my-projects-block/project-form/__container/project-form__container.css';

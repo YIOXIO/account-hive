@@ -1,0 +1,9 @@
+.project-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 13px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    padding: 74px 46px;
+}

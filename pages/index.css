@@ -3,6 +3,8 @@
 @import '../account-block/page/page.css';
 
 @import '../account-block/section-title/section-title.css';
+@import '../account-block/section-subtitle/section-subtitle.css';
+@import '../account-block/section-description/section-description.css';
 
 
 /* Стили для секции Dashboard */

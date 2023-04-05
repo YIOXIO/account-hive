@@ -1,0 +1,11 @@
+.project-form__field {
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #7C7A7A;
+    padding: 14px 0 14px 19px;
+    outline: 1px solid #9D9B9B;
+}

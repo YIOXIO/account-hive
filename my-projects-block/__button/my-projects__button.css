@@ -1,0 +1,19 @@
+.my-projects__button {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #7C94FF;
+    background: transparent;
+    cursor: pointer;
+    max-width: 335px;
+    gap: 5px;
+    border: none;
+    margin: 0 0 48px;
+}
+
+.my-projects__button::before {
+    content: '+';
+}

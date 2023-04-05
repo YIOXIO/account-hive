@@ -1,0 +1,19 @@
+.project-form__add-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #7C94FF;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    max-width: 335px;
+    padding: 0;
+    gap: 3px;
+}
+
+.project-form__add-button::before {
+    content: '+';
+}

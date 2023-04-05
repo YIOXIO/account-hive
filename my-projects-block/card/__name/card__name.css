@@ -1,0 +1,9 @@
+.card__name {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+    letter-spacing: 0.07em;
+    color: #001529;
+    margin: 0;
+    padding: 0;
+}
