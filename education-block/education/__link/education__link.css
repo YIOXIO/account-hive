@@ -1,0 +1,14 @@
+.education__link {
+    background-image: url('../../../images/method-book.svg');
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    align-self: flex-end;
+    margin: 0 30px 30px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50.75px;
+    height: 58px;
+
+}

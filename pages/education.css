@@ -13,8 +13,12 @@
 @import '../education-block/education/__wrapper-column/education__wrapper-column.css';
 @import '../education-block/education/__list/education__list.css';
 @import '../education-block/education/__title/education__title.css';
+@import '../education-block/education/__title/_nomargin/education__title_nomargin.css';
 @import '../education-block/education/__item/education__item.css';
 @import '../education-block/education/__image/education__image.css';
 @import '../education-block/education/__description/education__description.css';
 @import '../education-block/education/__overlay/education__overlay.css';
-@import '../education-block/education/__accelerator/education__accelerato.css';
+@import '../education-block/education/__accelerator/education__accelerator.css';
+@import '../education-block/education/__button/education__button.css';
+@import '../education-block/education/__link/education__link.css';
+@import '../education-block/education/__method/education__method.css';

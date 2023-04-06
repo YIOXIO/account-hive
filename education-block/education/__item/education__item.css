@@ -6,8 +6,11 @@
     z-index: 1;
     max-width: 225px;
 
+}
 
-
+.education__item:hover {
+    background-size: 110%;
+    background-position: center;
 }
 
 .education__item:nth-child(1) {
