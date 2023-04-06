@@ -1,0 +1,18 @@
+/* Общие стили */
+@import '../profile-form-block/root/root.css';
+@import '../profile-form-block/page/page.css';
+
+@import '../profile-form-block/section-title/section-title.css';
+
+/* Стили для формы редактирования профиля */
+@import '../profile-form-block/profile-form/profile-form.css';
+@import '../profile-form-block/profile-form/__wrapper/profile-form__wrapper.css';
+@import '../profile-form-block/profile-form/__title/profile-form__title.css';
+@import '../profile-form-block/profile-form/__list/profile-form__list.css';
+@import '../profile-form-block/profile-form/__field/profile-form__field.css';
+@import '../profile-form-block/profile-form/__list/_flex/profile-form__list_flex.css';
+@import '../profile-form-block/profile-form/__list/_grid/profile-form__list_grid.css';
+@import '../profile-form-block/profile-form/__select/profile-form__select.css';
+@import '../profile-form-block/profile-form/__submit-button/profile-form__submit-button.css';
+@import '../profile-form-block/profile-form/__button-edit/profile-form__button-edit.css';
+@import '../profile-form-block/profile-form/__label/profile-form__label.css';

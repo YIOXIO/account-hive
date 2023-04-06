@@ -1,0 +1,18 @@
+.profile-form__select {
+    border-color: #202020;
+    width: 100%;
+    font-size: 16px;
+    padding: 14px 20px;
+    background: #fff0;
+    color: #001529b3;
+    appearance: none;
+    border: 1px solid #9D9B9B;
+    border-radius: 5px;
+    padding: 14px 0 14px 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #7C7A7A;
+    margin-bottom: 2em;
+}
