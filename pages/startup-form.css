@@ -1,0 +1,16 @@
+/* Общие стили */
+@import '../startup-form-block/root/root.css';
+@import '../startup-form-block/page/page.css';
+
+@import '../startup-form-block/section-title/section-title.css';
+
+/* Стили для формы Стартап как диплом */
+@import '../startup-form-block/startup-form/startup-form.css';
+@import '../startup-form-block/startup-form/__title/startup-form__title.css';
+@import '../startup-form-block/startup-form/__title/_star/startup-form__title_star.css';
+@import '../startup-form-block/startup-form/__label/startup-form__label.css';
+@import '../startup-form-block/startup-form/__input/startup-form__input.css';
+@import '../startup-form-block/startup-form/__wrapper/startup-form__wrapper.css';
+@import '../startup-form-block/startup-form/__checkbox/_wrapper/startup-form__checkbox-wrapper.css';
+@import '../startup-form-block/startup-form/__checkbox/_text/startup-form__checkbox-text.css';
+@import '../startup-form-block/startup-form/__input/_checkbox/startup-form__input_checkbox.css';

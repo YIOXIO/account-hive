@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/startup-form.css">
+    <title>Стартап как диплом</title>
+</head>
+
+<body class="root">
+    <main class="page">
+        <h1 class="section-title">Стартап как диплом</h1>
+        <form class="startup-form" action="#">
+            <h2 class="startup-form__title">Тема Выпускной квалификационной работы в формате стартапа</h2>
+            <label for="theme-input" class="startup-form__label">Название темы</label>
+            <input id="theme-input" name="startup-form-theme" placeholder="Название темы" value="" type="text" required
+                class="startup-form__input">
+            <h2 class="startup-form__title">Научный руководитель</h2>
+
+            <ul class="startup-form__wrapper">
+                <li>
+                    <label for="fio-input" class="startup-form__label">Фамилия, имя, отчество руководителя</label>
+                    <input id="fio-input" class="startup-form__input" name="startup-form-fio" placeholder="ФИО" required
+                        value="" type="text">
+                </li>
+                <li>
+                    <label for="department-input" class="startup-form__label">Кафедра</label>
+                    <select name="startup-form-department" id="department-input" class="startup-form__input" required>
+                        <option value="">Кафедра</option>
+                        <option value="">Что - то ещё</option>
+                        <option value="">Что - то ещё</option>
+                        <option value="">Что - то ещё</option>
+                    </select>
+                </li>
+            </ul>
+            <h2 class="startup-form__title startup-form__title_star">Практика в Бизнес-инкубаторе</h2>
+            <ul class="startup-form__wrapper">
+                <li>
+                    <div class="startup-form__checkbox-wrapper">
+                        <p class="startup-form__checkbox-text">Нет</p>
+                        <input class="startup-form__input startup-form__input_checkbox" type="checkbox"
+                            name="startup-form-checkbox" id="checkbox-input">
+                    </div>
+                </li>
+            </ul>
+        </form>
+    </main>
+</body>
+
+</html>

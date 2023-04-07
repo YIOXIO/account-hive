@@ -1,0 +1,12 @@
+.startup-form__checkbox-wrapper {
+    max-width: 113px;
+    max-height: 56px;
+    box-sizing: border-box;
+    display: flex;
+    padding: 14px 19px 12px;
+    color: #7C7A7A;
+    outline: 1px solid #9D9B9B;
+    border-radius: 5px;
+    gap: 16px;
+
+}

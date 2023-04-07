@@ -1,0 +1,16 @@
+.startup-form__label {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #001529;
+    margin: 0 0 10px;
+    padding: 0;
+
+}
+
+.startup-form__label::after {
+    content: '*';
+    color: red;
+    margin-left: 5px;
+}

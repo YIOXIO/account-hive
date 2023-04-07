@@ -1,0 +1,5 @@
+.startup-form__title_star::after {
+    content: '*';
+    color: red;
+    margin-left: 5px;
+}

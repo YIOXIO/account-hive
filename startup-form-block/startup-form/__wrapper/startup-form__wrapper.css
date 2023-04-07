@@ -1,0 +1,14 @@
+.startup-form__wrapper {
+    display: grid;
+    grid-template-columns: 53.2% 1fr;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.startup-form__wrapper>li {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
