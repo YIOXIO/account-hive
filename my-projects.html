@@ -51,37 +51,38 @@
                     Редактирование проекта
                 </h2>
                 <h3 class="form-subtitle">Описание проекта</h3>
-                <label class="project-form__label project-form__label_star" for="project-name">Название проекта</label>
-                <input class="project-form__field project-form__field_name" value="" name="project-name" type="text"
-                    required placeholder="Название проекта">
-                <label class="project-form__label " for="project-description">Краткое описание
+                <label class="project-form__label project-form__label_star" for="name-input">Название проекта</label>
+                <input class="project-form__field project-form__field_name" value="" id="name-input" name="project-name"
+                    type="text" required placeholder="Название проекта">
+                <label class="project-form__label " for="description-input">Краткое описание
                     проекта</label>
-                <textarea class="project-form__field project-form__field_description" value=""
-                    name="project-description" type="text" required placeholder="Краткое описание проекта"></textarea>
+                <textarea class="project-form__field project-form__field_description" id="description-input"
+                    name="project-description" required placeholder="Краткое описание проекта"></textarea>
                 <h3 class="form-subtitle">Стадия реализация проекта</h3>
-                <label class="project-form__label project-form__label_star" for="project-idea">Идея</label>
-                <input class="project-form__field project-form__field_idea" type="text" name="project-idea" required
-                    placeholder="Идея">
-                <label class="project-form__label project-form__label_star" for="project-investment">Требуемые
+                <label class="project-form__label project-form__label_star" for="idea-input">Идея</label>
+                <input class="project-form__field project-form__field_idea" id="idea-input" type="text"
+                    name="project-idea" required placeholder="Идея">
+                <label class="project-form__label project-form__label_star" for="investment-input">Требуемые
                     инвестиции</label>
-                <input class="project-form__field project-form__field_investment" type="number"
+                <input class="project-form__field project-form__field_investment" id="investment-input" type="number"
                     name="project-investment" required placeholder="Требуемые инвестиции (руб.)">
-                <label class="project-form__label project-form__label_star" for="project-investment-invole">Привлеченные
+                <label class="project-form__label project-form__label_star" for="investment-invole-input">Привлеченные
                     инвестиции</label>
-                <input class="project-form__field project-form__field_investment-invole" type="number"
-                    name="project-investment-invole" required placeholder="Привлеченные инвестиции (руб.)">
+                <input class="project-form__field project-form__field_investment-invole" id="investment-invole-input"
+                    type="number" name="project-investment-invole" required
+                    placeholder="Привлеченные инвестиции (руб.)">
                 <h2 class="form-subtitle">Добавьте презентацию</h2>
                 <input class="project-form__field project-form__field_presentation" type="file"
-                    name="project-form-presentaion" required="false">
+                    name="project-form-presentaion" required>
                 <span class="project-form__span">PTTX, PDF, макс 8 mb</span>
                 <h2 class="form-subtitle">Добавьте обложку проекта</h2>
                 <input class="project-form__field project-form__field_image" type="file" name="project-form-image"
-                    required="false">
+                    required>
                 <span class="project-form__span">png, jpg, jpeg, макс 2 mb</span>
                 <h2 class="form-subtitle">Информация о команде</h2>
-                <label class="project-form__label project-form__label_star" for="project-id">ID участника</label>
-                <input class="project-form__field project-form__field_id" required placeholder="ID участника"
-                    type="text">
+                <label class="project-form__label project-form__label_star" for="id-input">ID участника</label>
+                <input class="project-form__field project-form__field_id" id="id-input" required
+                    placeholder="ID участника" type="text">
                 <button class="project-form__add-button" type="button" aria-label="Добавить участника">Добавить
                     участника</button>
                 <div class="project-form__container">

@@ -20,69 +20,71 @@
             </div>
             <ul class="profile-form__list">
                 <li>
-                    <label class="profile-form__label" for="profile-name">Имя</label>
-                    <input class="profile-form__field profile-form__field_name" name="profile-form" placeholder="Имя"
-                        value="" required type="text">
+                    <label class="profile-form__label" for="name-input">Имя</label>
+                    <input id="name-input" class="profile-form__field profile-form__field_name" name="profile-form"
+                        placeholder="Имя" value="" required type="text">
                 </li>
                 <li>
-                    <label class="profile-form__label" for="profile-middle_name">Фамилия</label>
-                    <input class="profile-form__field profile-form__field_middle-name" placeholder="Фамилия" value=""
-                        required name="profile-middle_name" type="text">
+                    <label class="profile-form__label" for="middle_name-input">Фамилия</label>
+                    <input id="middle_name-input" class="profile-form__field profile-form__field_middle-name"
+                        placeholder="Фамилия" value="" required name="profile-middle_name" type="text">
                 </li>
                 <li>
-                    <label class="profile-form__label" for="profile-last_name">Отчество</label>
-                    <input class="profile-form__field profile-form__field_last-name" placeholder="Отчество" value=""
-                        required type="text">
+                    <label class="profile-form__label" for="last_name-input">Отчество</label>
+                    <input id="last_name-input" class="profile-form__field profile-form__field_last-name"
+                        placeholder="Отчество" value="" required type="text">
+
                 </li>
             </ul>
             <ul class="profile-form__list">
                 <li>
-                    <label class="profile-form__label" for="profile-date">Дата рождения</label>
-                    <input class="profile-form__field profile-form__field_date" name="profile-date"
-                        placeholder="дд.мм.гггг" value="" required type="date">
+                    <label class="profile-form__label" for="date-input">Дата рождения</label>
+                    <input id="date-input" class="profile-form__field profile-form__field_date" name="profile-date"
+                        value="" required type="date">
                 </li>
                 <li>
-                    <label class="profile-form__label" for="profile-city">Город</label>
-                    <input class="profile-form__field profile-form__field_city" name="profile-city" placeholder="Город"
-                        value="" required type="text">
+                    <label class="profile-form__label" for="city-input">Город</label>
+                    <input id="city-input" class="profile-form__field profile-form__field_city" name="profile-city"
+                        placeholder="Город" value="" required type="text">
                 </li>
                 <li>
-                    <label class="profile-form__label" for="profile-status">Студент /школьник</label>
-                    <select class="profile-form__select" name="profile-status">
+                    <label class="profile-form__label" for="status-input">Студент / школьник</label>
+                    <select id="status-input" class="profile-form__field" name="profile-status">
                         <option value="">Студент</option>
                         <option value="">Школьник</option>
                     </select>
+
                 </li>
             </ul>
             <ul class="profile-form__list profile-form__list_flex">
                 <li>
-                    <label class="profile-form__label" for="profile-school">Название ВУЗа / школы</label>
-                    <input class="profile-form__field profile-form__field_school" name="profile-school"
-                        placeholder="Название ВУЗа / школы" required value="" type="text">
+                    <label class="profile-form__label" for="shcool-input">Название ВУЗа / школы</label>
+                    <input id="shcool-input" class="profile-form__field profile-form__field_school"
+                        name="profile-school" placeholder="Название ВУЗа / школы" required value="" type="text">
                 </li>
             </ul>
             <ul class="profile-form__list profile-form__list_grid">
                 <li>
-                    <label class="profile-form__label" for="profile-course">Курс / класс</label>
-                    <input class="profile-form__field profile-form__field_course" name="profile-course" required
-                        value="" placeholder="Курс / класс" type="text">
+                    <label class="profile-form__label" for="course-input">Курс / класс</label>
+                    <input id="course-input" class="profile-form__field profile-form__field_course"
+                        name="profile-course" required value="" placeholder="Курс / класс" type="text">
                 </li>
                 <li>
-                    <label class="profile-form__label" for="profile-direction">Направление подготовки</label>
-                    <input class="profile-form__field profile-form__field_direction" name="profile-direction"
-                        placeholder="Направление подготовки" value="" required type="text">
+                    <label class="profile-form__label" for="direction-input">Направление подготовки</label>
+                    <input id="direction-input" class="profile-form__field profile-form__field_direction"
+                        name="profile-direction" placeholder="Направление подготовки" value="" required type="text">
                 </li>
             </ul>
             <ul class="profile-form__list">
                 <li>
-                    <label class="profile-form__label" for="profile-phone">Контактный телефон</label>
-                    <input class="profile-form__field profile-form__field_phone" name="profile-phone"
-                        placeholder="Контактный телефон" value="" required type="text">
+                    <label class="profile-form__label" for="phone-input">Контактный телефон</label>
+                    <input id="phone-input" class="profile-form__field profile-form__field_phone" name="profile-phone"
+                        placeholder="Контактный телефон" value="" required type="number">
                 </li>
                 <li>
-                    <label class="profile-form__label" for="profile-email">Контактный e-mail</label>
-                    <input class="profile-form__field profile-form__field_email" name="profile-email" required value=""
-                        placeholder="Контактный e-mail" type="text">
+                    <label class="profile-form__label" for="email-input">Контактный e-mail</label>
+                    <input id="email-input" class="profile-form__field profile-form__field_email" name="profile-email"
+                        required value="" placeholder="Контактный e-mail" type="email">
                 </li>
             </ul>
             <button type="submit" class="profile-form__submit-button">Сохранить изменения</button>

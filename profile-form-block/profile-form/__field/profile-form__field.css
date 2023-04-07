@@ -8,4 +8,15 @@
     color: #7C7A7A;
     padding: 14px 14px 14px 19px;
     outline: 1px solid #9D9B9B;
+    appearance: none;
+}
+
+select {
+    background: transparent;
+    background-image: url("../../../images/Polygon5.svg");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+    border: 1px solid #dfdfdf;
+    margin-left: 5px;
 }
