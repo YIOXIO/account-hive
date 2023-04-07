@@ -7,7 +7,7 @@
 
 .startup-form__input_checkbox:checked {
     background: url('../../../../images/Vector.svg');
-    background-size: contain;
+    background-size: 13px;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #7C94FF;
