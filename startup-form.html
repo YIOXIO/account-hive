@@ -36,7 +36,7 @@
                 </li>
             </ul>
             <h2 class="startup-form__title startup-form__title_star">Практика в Бизнес-инкубаторе</h2>
-            <ul class="startup-form__wrapper">
+            <ul class="startup-form__wrapper startup-form__wrapper_checkbox">
                 <li>
                     <div class="startup-form__checkbox-wrapper">
                         <p class="startup-form__checkbox-text">Нет</p>
@@ -44,8 +44,34 @@
                             name="startup-form-checkbox" id="checkbox-input">
                     </div>
                 </li>
+                <li>
+                    <div class="startup-form__date-wrapper ">
+                        <p class="startup-form__date-text">Да</p>
+                        c
+                        <input class="startup-form__input" name="startup-form-date_from" id="date-input-from"
+                            type="date">
+                        по
+                        <input class="startup-form__input" name="startup-form-date_to" id="date-input-to" type="date">
+                    </div>
+                </li>
             </ul>
+            <h2 class="startup-form__title">Выбрать проект</h2>
+            <label for="project-input" class="startup-form__label">Выбрать проект из существующих или
+                присоединиться</label>
+            <select name="startup-form-project" class="startup-form__input startup-form__input_short" required
+                id="project-input">
+                <option value="">Название проекта</option>
+                <option value="">Что-то ещё</option>
+                <option value="">Что-то ещё</option>
+                <option value="">Что-то ещё</option>
+                <option value="">Что-то ещё</option>
+                <option value="">Что-то ещё</option>
+            </select>
         </form>
+        <div class="startup-form__container">
+            <button type="submit" class="startup-form__submit-button">Сохранить</button>
+            <button type="reset" class="startup-form__reset-button">Отмена</button>
+        </div>
     </main>
 </body>
 

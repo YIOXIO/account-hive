@@ -11,6 +11,13 @@
 @import '../startup-form-block/startup-form/__label/startup-form__label.css';
 @import '../startup-form-block/startup-form/__input/startup-form__input.css';
 @import '../startup-form-block/startup-form/__wrapper/startup-form__wrapper.css';
-@import '../startup-form-block/startup-form/__checkbox/_wrapper/startup-form__checkbox-wrapper.css';
-@import '../startup-form-block/startup-form/__checkbox/_text/startup-form__checkbox-text.css';
+@import '../startup-form-block/startup-form/__wrapper/_checkbox/startup-form__wrapper_checkbox.css';
+@import '../startup-form-block/startup-form/__checkbox-wrapper/_wrapper/startup-form__checkbox-wrapper.css';
+@import '../startup-form-block/startup-form/__checkbox-wrapper/_text/startup-form__checkbox-text.css';
+@import '../startup-form-block/startup-form/__date-wrapper/startup-form__date-wrapper.css';
 @import '../startup-form-block/startup-form/__input/_checkbox/startup-form__input_checkbox.css';
+@import '../startup-form-block/startup-form/__date-wrapper/_text/startup-form__date-text.css';
+@import '../startup-form-block/startup-form/__container/startup-form__container.css';
+@import '../startup-form-block/startup-form/__submit-button/startup-form__submit-button.css';
+@import '../startup-form-block/startup-form/reset-button/startup-form__reset-button.css';
+@import '../startup-form-block/startup-form/__input/_short/startup-form__input_short.css';
