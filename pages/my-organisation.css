@@ -1,0 +1,16 @@
+/* Общие стили */
+@import '../my-organisation-block/root/root.css';
+@import '../my-organisation-block/page/page.css';
+
+@import '../my-organisation-block/section-title/section-title.css';
+
+
+/* Стили для форма Моя организация */
+@import '../my-organisation-block/organisation-form/organisation-form.css';
+@import '../my-organisation-block/organisation-form/__title/organisation-form__title.css';
+@import '../my-organisation-block/organisation-form/__input/orgasisation-form__input.css';
+@import '../my-organisation-block/organisation-form/__label/organisation-form__label.css';
+@import '../my-organisation-block/organisation-form/__wrapper/organisation-form__wrapper.css';
+@import '../my-organisation-block/organisation-form/__wrapper/_flex/organisation-form__wrapper_flex.css';
+@import '../my-organisation-block/organisation-form/__label/_star/organisation-form__label_star.css';
+@import '../my-organisation-block/organisation-form/__submit-button/organisation-form__submit-button.css';

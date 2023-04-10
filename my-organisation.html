@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/my-organisation.css">
+    <title>Моя организация</title>
+</head>
+
+<body class="root">
+    <main class="page">
+        <h1 class="section-title">Моя организация</h1>
+        <form class="organisation-form" action="#">
+            <h2 class="organisation-form__title">Контактные данные</h2>
+            <label class="organisation-form__label" for="juridical-input">Юридический адрес</label>
+            <textarea class=" organisation-form__input" name="organisation-form-jurididcal" id="juridical-input"
+                rows="3">Юридический адрес</textarea>
+            <label class="organisation-form__label for=" for="payment-input">Р/счет </label>
+            <textarea class=" organisation-form__input" name="organisation-payment" id="payment-input"
+                rows="3">Р/счет </textarea>
+            <ul class="organisation-form__wrapper">
+                <li>
+                    <label class="organisation-form__label" for="correspondent-input">К/счет </label>
+                    <input class="organisation-form__input" placeholder="К/счет"
+                        name="organisation-corresponden-account" id="correspondent-input" type="text">
+                </li>
+                <li>
+                    <label class="organisation-form__label organisation-form__label_star" for="inn-input">ИНН</label>
+                    <input class="organisation-form__input" placeholder="ИНН" name="organisation-form-inn"
+                        id="inn-input" required type="text">
+                </li>
+            </ul>
+            <ul class="organisation-form__wrapper organisation-form__wrapper_flex">
+                <li>
+                    <label class="organisation-form__label" for="kpp-input">КПП</label>
+                    <input class="organisation-form__input" placeholder="КПП" name="organisation-form-kpp"
+                        id="kpp-input" type="text">
+                </li>
+                <li>
+                    <label class="organisation-form__label" for="ogrn-input">ОГРН</label>
+                    <input class="organisation-form__input" placeholder="ОГРН" id="ogrn-input"
+                        name="organisation-form-ogrn" type="text">
+                </li>
+                <li>
+                    <label class="organisation-form__label" for="bik-input">БИК</label>
+                    <input class="organisation-form__input" placeholder="БИК" name="organisation-form-bik"
+                        id="bik-input" type="text">
+                </li>
+            </ul>
+            <label class="organisation-form__label" for="okvd-input">ОКВЭД</label>
+            <input class="organisation-form__input" placeholder="ОКВЭД" id="okvd-input" name="organisation-form-okvd"
+                type="text">
+            <label class="organisation-form__label" for="okpo-input">ОКПО</label>
+            <input class="organisation-form__input" placeholder="ОКПО" id="okpo-input" name="organisation-form-okpo"
+                type="text">
+            <label class="organisation-form__label" for="okfs-input">ОКФС</label>
+            <input class="organisation-form__input" placeholder="ОКФС" id="okfs-input" name="organisation-form-okfs"
+                type="text">
+            <label class="organisation-form__label" for="okopf-input">ОКОПФ</label>
+            <input class="organisation-form__input" placeholder="ОКОПФ" id="okopf-input" name="organisation-form-okopf"
+                type="text">
+            <label class="organisation-form__label" for="oktmo-input">ОКТМО</label>
+            <input class="organisation-form__input" placeholder="ОКТМО" id="oktmo-input" name="organisation-form-oktmo"
+                type="text">
+            <label class="organisation-form__label" for="director-input">Генеральный директор</label>
+            <input class="organisation-form__input" placeholder="Генеральный директор" id="director-input"
+                name="organisation-form-director" type="text">
+            <label class="organisation-form__label" for="bookkeeper-input">Главный бухгалтер</label>
+            <input class="organisation-form__input" placeholder="Главный бухгалтер" id="bookkeeper-input"
+                name="organisation-form-bookkeeper" type="text">
+            <button type="submit" class="organisation-form__submit-button">Сохранить изменения</button>
+        </form>
+    </main>
+</body>
+
+</html>
