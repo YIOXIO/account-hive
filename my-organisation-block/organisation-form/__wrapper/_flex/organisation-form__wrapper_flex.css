@@ -1,0 +1,4 @@
+.organisation-form__wrapper_flex {
+    grid-template-columns: repeat(3, 1fr);
+
+}

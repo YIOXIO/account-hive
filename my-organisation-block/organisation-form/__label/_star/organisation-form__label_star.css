@@ -1,0 +1,5 @@
+.organisation-form__label_star::after {
+    content: '*';
+    color: red;
+    margin-left: 5px;
+}

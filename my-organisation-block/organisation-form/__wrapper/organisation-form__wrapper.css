@@ -1,0 +1,13 @@
+.organisation-form__wrapper {
+    display: grid;
+    grid-template-columns: 65.8% 1fr;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.organisation-form__wrapper>li {
+    display: flex;
+    flex-direction: column;
+}

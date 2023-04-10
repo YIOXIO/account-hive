@@ -1,0 +1,9 @@
+.organisation-form__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #001529;
+    padding: 0;
+    margin: 0 0 24px;
+}
