@@ -1,0 +1,11 @@
+.startup-form__reset-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #7C94FF;
+    cursor: pointer;
+    border: none;
+    background: none;
+}

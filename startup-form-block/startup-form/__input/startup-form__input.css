@@ -24,15 +24,22 @@
     color: rgba(124, 122, 122, 0.7);
     max-width: 135px;
     padding: 1px 17px;
+    max-height: 56px;
+    margin: 0;
+
 }
 
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+
+}
 
 select {
     background: transparent;
     background-image: url("../../../images/Polygon5.svg");
     background-repeat: no-repeat;
-    background-position-x: 95%;
+    background-position-x: calc(100% - 30px);
     background-position-y: 50%;
-    border: 1px solid #dfdfdf;
-    margin-left: 5px;
 }
