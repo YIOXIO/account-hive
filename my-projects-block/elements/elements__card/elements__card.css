@@ -5,5 +5,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    column-gap: 68px;
+    gap: 68px;
 }

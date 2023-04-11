@@ -76,8 +76,8 @@
                     name="project-form-presentaion" required>
                 <span class="project-form__span">PTTX, PDF, макс 8 mb</span>
                 <h2 class="form-subtitle">Добавьте обложку проекта</h2>
-                <input class="project-form__field project-form__field_image" type="file" name="project-form-image"
-                    required>
+                <input class="project-form__field project-form__field_image" type="file" id="image-input"
+                    name="project-form-image" required>
                 <span class="project-form__span">png, jpg, jpeg, макс 2 mb</span>
                 <h2 class="form-subtitle">Информация о команде</h2>
                 <label class="project-form__label project-form__label_star" for="id-input">ID участника</label>
@@ -86,7 +86,7 @@
                 <button class="project-form__add-button" type="button" aria-label="Добавить участника">Добавить
                     участника</button>
                 <div class="project-form__container">
-                    <button class="project-form__submit-button" type="submit">Сохранить</button>
+                    <button class="project-form__submit-button" id="submit-button" type="submit">Сохранить</button>
                     <button class="project-form__reset-button" type="reset">Отмена</button>
                 </div>
             </form>
@@ -95,6 +95,18 @@
             <button type="button" class="my-projects__button">Добавить еще проект</button>
         </section>
     </main>
+    <template class="card-template">
+        <li class="card">
+            <img src="" alt="Изображение карточки" class="card__image">
+            <h3 class="card__name"></h3>
+            <p class="card__description"></p>
+            <div class="card__wrapper">
+                <button type="button" aria-label="Посмотреть проект" class="card__button">Посмотреть
+                    проект</button>
+                <button type="button" aria-label="Редактировать проект" class="card__button-edit"></button>
+            </div>
+        </li>
+    </template>
     <script src="./scripts/my-project.js"></script>
 </body>
 
