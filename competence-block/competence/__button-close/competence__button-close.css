@@ -1,0 +1,12 @@
+.competence__button-close {
+    background: url('../../../images/close-button.svg');
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    background-position: center;
+    border: none;
+    margin: -50px;
+    cursor: pointer;
+    padding-bottom: 3px;
+
+}

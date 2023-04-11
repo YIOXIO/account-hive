@@ -1,0 +1,20 @@
+.competence__button-add {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #7C94FF;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    max-width: 231px;
+
+}
+
+.competence__button-add::before {
+    content: '+';
+    margin-right: 5px;
+}

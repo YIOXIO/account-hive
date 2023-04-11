@@ -1,0 +1,16 @@
+/* Общие стили */
+@import '../competence-block/root/root.css';
+@import '../competence-block/page/page.css';
+
+@import '../competence-block/section-title/section-title.css';
+@import '../competence-block/section-description/section-description.css';
+
+
+/* Стили для формы Компетенции */
+@import '../competence-block/competence/__form/competence__form.css';
+@import '../competence-block/competence/__title/competence__title.css';
+@import '../competence-block/competence/__list/competence__list.css';
+@import '../competence-block/competence/__item/competence__item.css';
+@import '../competence-block/competence/__input/competence__input.css';
+@import '../competence-block/competence/__button-close/competence__button-close.css';
+@import '../competence-block/competence/__button-add/competence__button-add.css';

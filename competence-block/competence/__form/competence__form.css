@@ -1,0 +1,8 @@
+.competence__form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #9D9B9B;
+    border-radius: 5px;
+    padding: 49px 46px 60px;
+    max-width: 1170px;
+}

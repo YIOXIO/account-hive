@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/competence.css">
     <title>Компетенции</title>
 </head>
 
@@ -13,12 +14,26 @@
         <h1 class="section-title">Компетенции</h1>
         <p class="section-description">Напишите свои компетенции</p>
         <section class="competence">
-            <h2 class="competence__title">Названия компетенций</h2>
-            <ul class="competence__list">
-                <input value="" type="text">
-            </ul>
+            <form class="competence__form" action="">
+                <h2 class="competence__title">Названия компетенций</h2>
+                <ul class="competence__list">
+                    <li class="competence__item">
+                        <input class="competence__input" type="text">
+                        <button type="button" class="competence__button-close"></button>
+                    </li>
+                </ul>
+                <button class="competence__button-add">Добавить компетенцию</button>
+            </form>
+
         </section>
     </main>
+    <template class="input-template">
+        <li class="competence__item">
+            <input class="competence__input" type="text">
+            <button type="button" class="competence__button-close"></button>
+        </li>
+    </template>
+    <script src="./scripts/competence-script.js"></script>
 </body>
 
 </html>
