@@ -1,0 +1,9 @@
+.registration__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    color: #7C7A7A;
+    text-decoration: none;
+    max-width: 170px;
+}

@@ -1,0 +1,20 @@
+.registration__submit-button {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+    background: #7C94FF;
+    border-radius: 5px;
+    border: none;
+    max-width: 346px;
+    padding: 11px 47px 13px;
+    margin: 0;
+    cursor: pointer;
+    transition: box-shadow .3s ease-in;
+}
+
+.registration__submit-button:hover {
+    box-shadow: 0 0 15px #7C94FF;
+}

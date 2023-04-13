@@ -1,0 +1,8 @@
+.registration__tabs-button_active {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 128.01%;
+    color: #000000;
+    border-bottom: 3px solid #7C94FF;
+
+}

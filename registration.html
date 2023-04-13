@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/registration.css">
+    <title>Вход/Регистраиця</title>
+</head>
+
+<body class="root">
+    <main class="page">
+        <section class="registration">
+            <h1 class="section-title">Авторизация</h1>
+            <h2 class="section-description">Пройдите регистрацию пользователя на платформе поддержки
+                научно-технологического предпринимательства</h2>
+            <div class="registration__content">
+                <ul class="registration__tabs">
+                    <button data-tabs-path="Authorization"
+                        class="registration__tabs-button registration__tabs-button_active">Войти</button>
+                    <button data-tabs-path="Registration" class="registration__tabs-button">Регистраиця</button>
+
+                </ul>
+                <div data-tabs-target="Authorization"
+                    class="registration__tabs-content registration__tabs-content_active">
+                    <form class="registration__form" action="#">
+
+                        <h3 class="form-title">Для входа введите логин и пароль</h3>
+                        <ul class="registration__list">
+                            <li>
+                                <label class="registration__label" for="">Логин</label>
+                                <input class="registration__input" placeholder="Телефон / e-mail" type="text">
+                            </li>
+                            <li>
+                                <label class="registration__label" for="">Пароль</label>
+                                <input class="registration__input" placeholder="Введите пароль" type="text">
+                            </li>
+                        </ul>
+                        <a class="registration__link" href="">Восстановить пароль</a>
+                        <button type="submit" class="registration__submit-button">Войти</button>
+                    </form>
+                </div>
+
+                <div data-tabs-target="Registration" class="registration__tabs-content">
+                    <form class="registration__form" action="#">
+
+                        <h3 class="form-title">Контактные данные</h3>
+                        <ul class="registration__list">
+                            <li>
+                                <label class="registration__label" for="">Имя</label>
+                                <input class="registration__input" placeholder="Имя" type="text">
+                            </li>
+                            <li>
+                                <label class="registration__label" for="">Фамилия</label>
+                                <input class="registration__input" placeholder="Фамилия" type="text">
+                            </li>
+                            <li>
+                                <label class="registration__label" for="">Отчество</label>
+                                <input class="registration__input" placeholder="Отчество" type="text">
+                            </li>
+                            <li>
+                                <label class="registration__label" for="">Контактный телефон</label>
+                                <input class="registration__input" placeholder="Контактный телефон" type="text">
+                            </li>
+                            <li>
+                                <label class="registration__label" for="">Контактный e-mail</label>
+                                <input class="registration__input" placeholder="E-mail" type="text">
+                            </li>
+                        </ul>
+                        <h3 class="form-title">Пароль</h3>
+                        <ul class="registration__list">
+                            <li>
+                                <label class="registration__label" for="">Придумайте пароль</label>
+                                <input class="registration__input" placeholder="Придумайте пароль" type="text">
+                            </li>
+                            <li>
+                                <label class="registration__label" for="">Повторите пароль</label>
+                                <input class="registration__input" placeholder="Повторите пароль" type="text">
+                            </li>
+                        </ul>
+
+                        <button type="submit" class="registration__submit-button">Отправить заявку</button>
+                    </form>
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+    </main>
+    <script src="./scripts/registration-script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+/* Общие стили */
+@import '../registration-block/root/root.css';
+@import '../registration-block/page/page.css';
+
+@import '../registration-block/section-title/section-title.css';
+@import '../registration-block/section-description/section-description.css';
+
+/* Стили для формы Регистрации/Авторизации */
+
+@import '../registration-block/__form/registration__form.css';
+@import '../registration-block/__input/registration__input.css';
+@import '../registration-block/__label/regitstrtion__lable.css';
+@import '../registration-block/__tabs/registration__tabs.css';
+@import '../registration-block/__tabs-button/registration__tabs-button.css';
+@import '../registration-block/__tabs-button/_active/registration__tabs-button_active.css';
+@import '../registration-block/__content/registration__content.css';
+@import '../registration-block/__list/registration__list.css';
+@import '../registration-block/__link/registration__link.css';
+@import '../registration-block/__submit-button/registration__submit-button.css';
+@import '../registration-block/__tabs-content/registration__tabs-content.css';
+@import '../registration-block/__tabs-content/_active/registration__tabs-content_active.css';
+@import '../registration-block/form-title/form-title.css';

@@ -29,16 +29,7 @@ function createCard(evt) {
 
 }
 
-inputImage.addEventListener('change', function () {
-    const reader = new FileReader()
 
-    reader.addEventListener('load', () => {
-        console.log(reader.result)
-        localStorage.setItem('image', reader.result);
-    })
-
-    reader.readAsDataURL(this.files[0])
-})
 
 function handleSubmitFormAddNewCard(evt) {
     evt.preventDefault()
